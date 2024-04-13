@@ -175,7 +175,7 @@ Using Metasploit's Drupal Drupalgeddon2 exploit, we successfully gained access t
   - Command: `use exploit/unix/webapp/drupal_drupalgeddon2`
   - Purpose: To exploit known vulnerabilities in Drupal's Form API to execute arbitrary PHP code.
   - Execution: Successfully initiated a `meterpreter` session, providing a remote shell as the `www-data` user.
-    ```
+
 - **Python Upgrade**:
   - Command: `python -c 'import pty; pty.spawn("/bin/bash")'`
   - Purpose: To upgrade the Meterpreter shell to a more stable bash shell.
